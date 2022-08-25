@@ -1,17 +1,18 @@
 #!/usr/bin/python3
-import random
-number = random.randint(-10000, 10000)
+if __name__ == "__main__":
+    import sys
+    i = len(sys.argv) - 1
 
-if number >= 0:
-    l_digit = number % 10
-else:
-    l_digit = number % -10
+    if i == 0:
+        print("{} arguments.".format(i))
+    elif i == 1:
+        print("{} argument:".format(i))
+    else:
+        print("{} arguments:".format(i))
 
-print("Last digit of {} is {}".format(number, l_digit), end='')
-
-if l_digit > 5:
-    print(" and is greater than 5")
-elif l_digit == 0:
-    print(" and is 0")
-else:
-    print(" and is less than 6 and not 0")
+    if i >= 1:
+        i = 0
+        for arg in sys.argv:
+            if i != 0:
+                print("{}: {}".format(i, arg))
+            i += 1
