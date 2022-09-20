@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-This is a module that containts a clas that avoids
-dynmaically created attributes
+    101-locked_class: class LockedClass
 """
 
 
 class LockedClass:
+    """
+        A class that can only have one attribute first_name.
+        Attribute:
+             first_name (str): name
+    """
     __slots__ = ['first_name']
-
-    def __init__(self):
-        """ Init method """
-        pass
