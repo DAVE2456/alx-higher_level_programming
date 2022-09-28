@@ -14,4 +14,4 @@ class Student:
         """
             Retrieves the dictionary representationof  student
         """
-        return self.
+        return self.__dict__
