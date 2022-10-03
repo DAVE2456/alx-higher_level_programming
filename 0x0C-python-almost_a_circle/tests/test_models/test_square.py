@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Contains unittest cases for `Square` class"""
 import unittest
 from models.base import Base
