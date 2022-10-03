@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Contains test cases of `Rectangle` class which extends the `Base` class"""
 import unittest
 from models.base import Base
