@@ -1,1 +1,1 @@
-console.write("JavaScript is amazing!");
+document.write("JavaScript is amazing!");
