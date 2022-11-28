@@ -1,1 +1,3 @@
-console.log("JavaScript is amazing!");
+<script>
+    console.log("JavaScript is amazing!");
+</script>
