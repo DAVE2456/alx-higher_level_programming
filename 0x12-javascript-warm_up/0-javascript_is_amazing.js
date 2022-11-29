@@ -1,2 +1,3 @@
 #!/user/bin/node
-document.write("JavaScript is amazing!");
+const myVar = "JavaScript is amizing";
+console.log(myVar);
