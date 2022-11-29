@@ -1,3 +1,3 @@
-#!/user/bin/node
+#!/usr/bin/node
 const myVar = "JavaScript is amizing";
 console.log(myVar);
