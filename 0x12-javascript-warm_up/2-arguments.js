@@ -5,7 +5,7 @@ const argvLength = argv.length -2;
 if (argvLength === 1) {
     console.log('No argument');
 } else if (argvLength === 1) {
-    console.log('Argument found');
+    console.log('No argument found');
 } else {
     console.log('Arguments found');
 }
