@@ -1,16 +1,5 @@
 #!/usr/bin/node
-/*
-* Script
-*/
-
-const process = require('process');
-const fs = require('process');
-
-const fileparh = process.argv[2];
-const content = process.argv[3];
-
-fs.writeFile(filepath, content, 'utf8', err => {
-    if (err) {
-	console.log(err);
-    }
+const fs = require('fs');
+fs.writeFile(process.argv[2], process.argv[3], error => {
+    if (error) console.log(error);
 });
