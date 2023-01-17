@@ -1,16 +1,16 @@
-#1/usr/bin/node
+#!/usr/bin/node
 /**
-* Script that reads from a file
-*/
+ * Script that reads from a file
+ */
 const process = require('process');
 const fs = require('fs');
 
-const filepath = process.argv[2]
+const filePath = process.argv[2];
 
-fs.readFile(filepath, 'utf-8', (err, data) => {
+fs.readFile(filePath, 'utf-8', (err, data) => {
     if (err) {
-	console.log(err);
+        console.log(err);
     } else {
-	console.log(data);
+        console.log(data);
     }
 });
